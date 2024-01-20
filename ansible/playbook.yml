@@ -38,4 +38,3 @@
         mode: '0600'
       when: keygen.rc == 1
       with_items: '{{ keyscan.stdout_lines|default([]) }}'
-
